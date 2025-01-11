@@ -413,3 +413,62 @@ input[type="text"]{
     padding-bottom: 18px;
     
 }
+
+
+/* Hover styles */
+
+.donate .donate-container .amount-btn:hover{
+    background-color: rgba(198, 228, 214, 1);
+    color: black;
+    transition: 0.5s;
+}
+
+.donate .donate-btn:hover{
+    background-color: rgba(0, 106, 80, 0.8);
+    transition: 0.5s;
+}
+
+.news .news-container .news-btn:hover{
+    background-color: rgba(0, 106, 80, 0.8);
+    transition: 0.5s;
+}
+
+.vision .vision-content .vision-card-button-1:hover{
+    background-color: #081e45;
+    transition: 0.5s;
+}
+
+.vision .vision-content .vision-card-button-2:hover{
+    background-color: #054327;
+    transition: 0.5s;
+}
+
+.vision .vision-container .vision-content-1:hover{
+    background-color: #9db4dd;
+    transition: 0.5s;
+}
+
+.vision .vision-container .vision-content-2:hover{
+    background-color: #67dfa1;
+    transition: 0.5s;
+}
+
+.vision .vision-container .vision-content-3:hover{
+    background-color: #f5d791;
+    transition: 0.5s;
+}
+
+.vision .vision-content .vision-card-button-3:hover{
+    background-color: #755305;
+    transition: 0.5s;
+} 
+
+.header .banner .btn-primary:hover{
+    background-color: rgba(0, 106, 80, 0.8);
+    transition: 0.5s;
+}
+
+.subscribe .subscribe-form button:hover{
+    background-color: rgba(0, 106, 80, 0.8);
+    transition: 0.5s;
+}
