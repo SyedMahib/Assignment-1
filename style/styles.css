@@ -1,3 +1,6 @@
+
+
+
 /* shared styles */
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;600;700&display=swap');
 
@@ -433,6 +436,11 @@ input[type="text"]{
     transition: 0.5s;
 }
 
+.news .news-container:hover{
+    background-color: rgba(198, 228, 214, 1);
+    transition: 0.5s;
+}
+
 .vision .vision-content .vision-card-button-1:hover{
     background-color: #081e45;
     transition: 0.5s;
@@ -472,3 +480,4 @@ input[type="text"]{
     background-color: rgba(0, 106, 80, 0.8);
     transition: 0.5s;
 }
+
