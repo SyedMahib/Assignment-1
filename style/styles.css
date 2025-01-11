@@ -308,7 +308,7 @@ font-family: 'Fira Sans', sans-serif;
 /* DONATE SECTION STYLES */
 
 .donate{
-    margin: auto 160px
+    margin: auto 160px;
 }
 
 .donate-container{
@@ -359,5 +359,57 @@ input[type="text"]{
     margin-left: 600px;
     cursor: pointer;
     margin-top: 32px;
+    
+}
+
+/* subscribe styles */
+
+.subscribe{
+    margin: 50px 160px;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.subscribe h3{
+    margin-bottom: 16px;
+}
+
+.subscribe .subscribe-form{
+    display: flex;
+    align-items: center;
+    gap: 0;
+    margin-bottom: 10px;
+}
+
+.subscribe .subscribe-form input{
+    border: none;
+    padding: 12.5px 10px;
+    border-radius: 8px 0 0 8px;
+    background-color: white;
+    color: black;
+    width: 600px;
+
+}
+
+.subscribe .subscribe-form button{
+    padding: 10px 0;
+    padding-right: 20px;
+    padding-left: 10px;
+    border-radius: 0 8px 8px 0;
+    background-color: rgba(0, 106, 80, 1);
+    border: none;
+    color: white;
+    font-size: 18px;
+}
+
+.subscribe .subscribe-form ::placeholder{
+    text-align: left;
+    font-size: 16px;
+    font-weight: normal;
+    padding-left: 20px;
+    padding-top: 18px;
+    padding-bottom: 18px;
     
 }
